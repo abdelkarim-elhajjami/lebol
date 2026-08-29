@@ -1,0 +1,7 @@
+// Safe defaults for a fresh clone. Local overrides are loaded from the
+// untracked Secrets.xcconfig file when it exists.
+OPENROUTER_API_KEY =
+SUPABASE_HOST =
+SUPABASE_ANON_KEY =
+
+#include? "Secrets.xcconfig"

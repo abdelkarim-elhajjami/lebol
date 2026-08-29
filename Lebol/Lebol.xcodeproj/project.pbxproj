@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10001000000000000000001 /* LebolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000001 /* LebolApp.swift */; };
+		A10001000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000002 /* RootView.swift */; };
+		A10001000000000000000003 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000003 /* UserProfile.swift */; };
+		A10001000000000000000004 /* DailyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000004 /* DailyLog.swift */; };
+		A10001000000000000000005 /* MealEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000005 /* MealEntry.swift */; };
+		A10001000000000000000006 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000006 /* FoodItem.swift */; };
+		A10001000000000000000007 /* WeightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000007 /* WeightEntry.swift */; };
+		A10001000000000000000008 /* WaterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000008 /* WaterEntry.swift */; };
+		A10001000000000000000009 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000009 /* OnboardingContainerView.swift */; };
+		A10001000000000000000010 /* WelcomeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000010 /* WelcomeStepView.swift */; };
+		A10001000000000000000011 /* GenderStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000011 /* GenderStepView.swift */; };
+		A10001000000000000000012 /* AgeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000012 /* AgeStepView.swift */; };
+		A10001000000000000000013 /* HeightStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000013 /* HeightStepView.swift */; };
+		A10001000000000000000014 /* WeightStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000014 /* WeightStepView.swift */; };
+		A10001000000000000000015 /* TargetWeightStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000015 /* TargetWeightStepView.swift */; };
+
+		A10001000000000000000018 /* PaceStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000018 /* PaceStepView.swift */; };
+		A10001000000000000000070 /* GeminiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000070 /* GeminiService.swift */; };
+		A10001000000000000000080 /* NutritionCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000080 /* NutritionCalculatorTests.swift */; };
+		A10001000000000000000034 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000034 /* MainTabView.swift */; };
+		A10001000000000000000035 /* NutritionDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000035 /* NutritionDashboardView.swift */; };
+		A10001000000000000000036 /* AddActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000036 /* AddActionSheet.swift */; };
+		A10001000000000000000037 /* ProfileSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000037 /* ProfileSheetView.swift */; };
+		A10001000000000000000100 /* TextLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000100 /* TextLogView.swift */; };
+		A10001000000000000000101 /* FoodSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000101 /* FoodSearchView.swift */; };
+		A10001000000000000000102 /* PortionEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000102 /* PortionEditorView.swift */; };
+		A10001000000000000000039 /* FoodScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000039 /* FoodScanView.swift */; };
+		A10001000000000000000044 /* WeightProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000044 /* WeightProgressView.swift */; };
+		A10001000000000000000045 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000045 /* OnboardingViewModel.swift */; };
+		A10001000000000000000046 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000046 /* DashboardViewModel.swift */; };
+		A10001000000000000000049 /* NutritionCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000049 /* NutritionCalculator.swift */; };
+		A10001000000000000000051 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000051 /* DesignSystem.swift */; };
+		A10001000000000000000052 /* Assets.xcAssets in Resources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000052 /* Assets.xcAssets */; };
+		A10001000000000000000060 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000060 /* APIConfig.swift */; };
+		A10001000000000000000061 /* SupportMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000061 /* SupportMessage.swift */; };
+		A10001000000000000000062 /* SupportChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000062 /* SupportChatView.swift */; };
+		A10001000000000000000063 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000063 /* ActivityLogView.swift */; };
+		A10001000000000000000065 /* VoiceLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000065 /* VoiceLogView.swift */; };
+		A10001000000000000000066 /* ProfileEditorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000066 /* ProfileEditorViews.swift */; };
+		A10001000000000000000090 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000090 /* MealDetailView.swift */; };
+		A10001000000000000000120 /* SchemaVersions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000120 /* SchemaVersions.swift */; };
+		A10001000000000000000130 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000130 /* FavoritesView.swift */; };
+		A10001000000000000000140 /* AIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000140 /* AIModels.swift */; };
+		A10001000000000000000141 /* ReviewableFoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000141 /* ReviewableFoodItem.swift */; };
+		A10001000000000000000150 /* MealReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000150 /* MealReviewView.swift */; };
+		A10001000000000000000151 /* MealDetailComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000151 /* MealDetailComponents.swift */; };
+		A10001000000000000000160 /* SharedPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000160 /* SharedPickers.swift */; };
+		A10001000000000000000170 /* MealAnalysisCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000170 /* MealAnalysisCoordinator.swift */; };
+		A10001000000000000000180 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000180 /* Formatters.swift */; };
+		A10001000000000000000190 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000190 /* DataService.swift */; };
+		A10001000000000000000200 /* FavoriteMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000200 /* FavoriteMeal.swift */; };
+		A10001000000000000000201 /* FavoritesManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000201 /* FavoritesManagementView.swift */; };
+		A10001000000000000000301 /* MedicalDisclaimerStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000301 /* MedicalDisclaimerStepView.swift */; };
+		A10001000000000000000302 /* PrivacyStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000302 /* PrivacyStepView.swift */; };
+		A10001000000000000000303 /* RoadmapStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000303 /* RoadmapStepView.swift */; };
+		A10001000000000000000304 /* CareIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000304 /* CareIllustrationView.swift */; };
+		A10001000000000000000305 /* ProgramLoaderStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000305 /* ProgramLoaderStepView.swift */; };
+		A10001000000000000000306 /* MeasurementSystemStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000306 /* MeasurementSystemStepView.swift */; };
+		A10001000000000000000401 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000401 /* AuthService.swift */; };
+		A10001000000000000000402 /* SyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000402 /* SyncService.swift */; };
+		A10001000000000000000403 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000403 /* AuthViewModel.swift */; };
+		A10001000000000000000404 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000404 /* SignInView.swift */; };
+		A10001000000000000000405 /* AccountCreationStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10001000000000000000405 /* AccountCreationStepView.swift */; };
+		A10001000000000000000410 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = P20001000000000000000001 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B10001000000000000000110 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		B10001000000000000000001 /* LebolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LebolApp.swift; sourceTree = "<group>"; };
+		B10001000000000000000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		B10001000000000000000003 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		B10001000000000000000004 /* DailyLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLog.swift; sourceTree = "<group>"; };
+		B10001000000000000000005 /* MealEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealEntry.swift; sourceTree = "<group>"; };
+		B10001000000000000000006 /* FoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		B10001000000000000000007 /* WeightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightEntry.swift; sourceTree = "<group>"; };
+		B10001000000000000000008 /* WaterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterEntry.swift; sourceTree = "<group>"; };
+		B10001000000000000000009 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		B10001000000000000000010 /* WelcomeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000011 /* GenderStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000012 /* AgeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000013 /* HeightStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000014 /* WeightStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000015 /* TargetWeightStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetWeightStepView.swift; sourceTree = "<group>"; };
+
+		B10001000000000000000018 /* PaceStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaceStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000070 /* GeminiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiService.swift; sourceTree = "<group>"; };
+		B10001000000000000000080 /* NutritionCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalculatorTests.swift; sourceTree = "<group>"; };
+		B10001000000000000000081 /* LebolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LebolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10001000000000000000034 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		B10001000000000000000035 /* NutritionDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionDashboardView.swift; sourceTree = "<group>"; };
+		B10001000000000000000036 /* AddActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActionSheet.swift; sourceTree = "<group>"; };
+		B10001000000000000000037 /* ProfileSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSheetView.swift; sourceTree = "<group>"; };
+		B10001000000000000000100 /* TextLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLogView.swift; sourceTree = "<group>"; };
+		B10001000000000000000101 /* FoodSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSearchView.swift; sourceTree = "<group>"; };
+		B10001000000000000000102 /* PortionEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionEditorView.swift; sourceTree = "<group>"; };
+		B10001000000000000000039 /* FoodScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodScanView.swift; sourceTree = "<group>"; };
+		B10001000000000000000044 /* WeightProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightProgressView.swift; sourceTree = "<group>"; };
+		B10001000000000000000045 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		B10001000000000000000046 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		B10001000000000000000049 /* NutritionCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionCalculator.swift; sourceTree = "<group>"; };
+		B10001000000000000000051 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		B10001000000000000000052 /* Assets.xcAssets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcAssets; sourceTree = "<group>"; };
+		B10001000000000000000053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10001000000000000000054 /* Lebol.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lebol.entitlements; sourceTree = "<group>"; };
+		B10001000000000000000055 /* Lebol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lebol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10001000000000000000060 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		B10001000000000000000061 /* SupportMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportMessage.swift; sourceTree = "<group>"; };
+		B10001000000000000000062 /* SupportChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportChatView.swift; sourceTree = "<group>"; };
+		B10001000000000000000063 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		B10001000000000000000065 /* VoiceLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceLogView.swift; sourceTree = "<group>"; };
+		B10001000000000000000066 /* ProfileEditorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditorViews.swift; sourceTree = "<group>"; };
+		B10001000000000000000090 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		B10001000000000000000120 /* SchemaVersions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchemaVersions.swift; sourceTree = "<group>"; };
+		B10001000000000000000130 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B10001000000000000000140 /* AIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIModels.swift; sourceTree = "<group>"; };
+		B10001000000000000000141 /* ReviewableFoodItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewableFoodItem.swift; sourceTree = "<group>"; };
+		B10001000000000000000150 /* MealReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealReviewView.swift; sourceTree = "<group>"; };
+		B10001000000000000000151 /* MealDetailComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailComponents.swift; sourceTree = "<group>"; };
+		B10001000000000000000160 /* SharedPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPickers.swift; sourceTree = "<group>"; };
+		B10001000000000000000170 /* MealAnalysisCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealAnalysisCoordinator.swift; sourceTree = "<group>"; };
+		B10001000000000000000180 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		B10001000000000000000190 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		B10001000000000000000200 /* FavoriteMeal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteMeal.swift; sourceTree = "<group>"; };
+		B10001000000000000000201 /* FavoritesManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesManagementView.swift; sourceTree = "<group>"; };
+		B10001000000000000000301 /* MedicalDisclaimerStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalDisclaimerStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000302 /* PrivacyStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000303 /* RoadmapStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadmapStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000304 /* CareIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareIllustrationView.swift; sourceTree = "<group>"; };
+		B10001000000000000000305 /* ProgramLoaderStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramLoaderStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000306 /* MeasurementSystemStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementSystemStepView.swift; sourceTree = "<group>"; };
+		B10001000000000000000401 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B10001000000000000000402 /* SyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncService.swift; sourceTree = "<group>"; };
+		B10001000000000000000403 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		B10001000000000000000404 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B10001000000000000000405 /* AccountCreationStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationStepView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10001000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000410 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10001000000000000000080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10001000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000110 /* Config.xcconfig */,
+				D10001000000000000000002 /* Lebol */,
+				D10001000000000000000080 /* LebolTests */,
+				D10001000000000000000020 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10001000000000000000002 /* Lebol */ = {
+			isa = PBXGroup;
+			children = (
+				D10001000000000000000003 /* App */,
+				D10001000000000000000004 /* Models */,
+				D10001000000000000000005 /* Views */,
+				D10001000000000000000012 /* ViewModels */,
+				D10001000000000000000013 /* Services */,
+				D10001000000000000000014 /* Utilities */,
+				D10001000000000000000015 /* Resources */,
+				B10001000000000000000053 /* Info.plist */,
+				B10001000000000000000054 /* Lebol.entitlements */,
+			);
+			path = Lebol;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000001 /* LebolApp.swift */,
+				B10001000000000000000002 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000003 /* UserProfile.swift */,
+				B10001000000000000000004 /* DailyLog.swift */,
+				B10001000000000000000005 /* MealEntry.swift */,
+				B10001000000000000000006 /* FoodItem.swift */,
+				B10001000000000000000007 /* WeightEntry.swift */,
+				B10001000000000000000008 /* WaterEntry.swift */,
+				B10001000000000000000061 /* SupportMessage.swift */,
+				B10001000000000000000120 /* SchemaVersions.swift */,
+				B10001000000000000000140 /* AIModels.swift */,
+				B10001000000000000000141 /* ReviewableFoodItem.swift */,
+				B10001000000000000000200 /* FavoriteMeal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D10001000000000000000160 /* Components */,
+				D10001000000000000000400 /* Auth */,
+				D10001000000000000000006 /* Onboarding */,
+				D10001000000000000000007 /* Dashboard */,
+				D10001000000000000000008 /* MealLogging */,
+				D10001000000000000000011 /* Progress */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000400 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000404 /* SignInView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000160 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000160 /* SharedPickers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000006 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000009 /* OnboardingContainerView.swift */,
+				B10001000000000000000010 /* WelcomeStepView.swift */,
+
+				B10001000000000000000011 /* GenderStepView.swift */,
+				B10001000000000000000012 /* AgeStepView.swift */,
+				B10001000000000000000013 /* HeightStepView.swift */,
+				B10001000000000000000014 /* WeightStepView.swift */,
+				B10001000000000000000015 /* TargetWeightStepView.swift */,
+				B10001000000000000000018 /* PaceStepView.swift */,
+				B10001000000000000000301 /* MedicalDisclaimerStepView.swift */,
+				B10001000000000000000302 /* PrivacyStepView.swift */,
+				B10001000000000000000303 /* RoadmapStepView.swift */,
+				B10001000000000000000304 /* CareIllustrationView.swift */,
+				B10001000000000000000305 /* ProgramLoaderStepView.swift */,
+				B10001000000000000000306 /* MeasurementSystemStepView.swift */,
+				B10001000000000000000405 /* AccountCreationStepView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000007 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000034 /* MainTabView.swift */,
+				B10001000000000000000035 /* NutritionDashboardView.swift */,
+				B10001000000000000000036 /* AddActionSheet.swift */,
+				B10001000000000000000037 /* ProfileSheetView.swift */,
+				B10001000000000000000066 /* ProfileEditorViews.swift */,
+				B10001000000000000000062 /* SupportChatView.swift */,
+				B10001000000000000000063 /* ActivityLogView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000008 /* MealLogging */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000100 /* TextLogView.swift */,
+				B10001000000000000000039 /* FoodScanView.swift */,
+				B10001000000000000000065 /* VoiceLogView.swift */,
+				B10001000000000000000090 /* MealDetailView.swift */,
+				B10001000000000000000150 /* MealReviewView.swift */,
+				B10001000000000000000151 /* MealDetailComponents.swift */,
+				B10001000000000000000101 /* FoodSearchView.swift */,
+				B10001000000000000000102 /* PortionEditorView.swift */,
+				B10001000000000000000130 /* FavoritesView.swift */,
+				B10001000000000000000201 /* FavoritesManagementView.swift */,
+			);
+			path = MealLogging;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000011 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000044 /* WeightProgressView.swift */,
+			);
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000012 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000045 /* OnboardingViewModel.swift */,
+				B10001000000000000000046 /* DashboardViewModel.swift */,
+				B10001000000000000000170 /* MealAnalysisCoordinator.swift */,
+				B10001000000000000000403 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000013 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000060 /* APIConfig.swift */,
+				B10001000000000000000190 /* DataService.swift */,
+				B10001000000000000000070 /* GeminiService.swift */,
+				B10001000000000000000049 /* NutritionCalculator.swift */,
+				B10001000000000000000401 /* AuthService.swift */,
+				B10001000000000000000402 /* SyncService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000014 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000051 /* DesignSystem.swift */,
+				B10001000000000000000180 /* Formatters.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000015 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000052 /* Assets.xcAssets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000020 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000055 /* Lebol.app */,
+				B10001000000000000000081 /* LebolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D10001000000000000000080 /* LebolTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10001000000000000000080 /* NutritionCalculatorTests.swift */,
+			);
+			path = LebolTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10001000000000000000001 /* Lebol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10001000000000000000003 /* Build configuration list for PBXNativeTarget "Lebol" */;
+			buildPhases = (
+				E10001000000000000000002 /* Sources */,
+				C10001000000000000000001 /* Frameworks */,
+				E10001000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lebol;
+			packageProductDependencies = (
+				P20001000000000000000001 /* Supabase */,
+			);
+			productName = Lebol;
+			productReference = B10001000000000000000055 /* Lebol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E10001000000000000000081 /* LebolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10001000000000000000080 /* Build configuration list for PBXNativeTarget "LebolTests" */;
+			buildPhases = (
+				E10001000000000000000080 /* Sources */,
+				C10001000000000000000080 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E10001000000000000000083 /* PBXTargetDependency */,
+			);
+			name = LebolTests;
+			productName = LebolTests;
+			productReference = B10001000000000000000081 /* LebolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXContainerItemProxy section */
+		E10001000000000000000082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10001000000000000000010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10001000000000000000001;
+			remoteInfo = Lebol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXTargetDependency section */
+		E10001000000000000000083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10001000000000000000001 /* Lebol */;
+			targetProxy = E10001000000000000000082 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXProject section */
+		E10001000000000000000010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E10001000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E10001000000000000000081 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E10001000000000000000001;
+					};
+				};
+			};
+			buildConfigurationList = F10001000000000000000001 /* Build configuration list for PBXProject "Lebol" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10001000000000000000001;
+			packageReferences = (
+				P10001000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = D10001000000000000000020 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10001000000000000000001 /* Lebol */,
+				E10001000000000000000081 /* LebolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10001000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000052 /* Assets.xcAssets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10001000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000001 /* LebolApp.swift in Sources */,
+				A10001000000000000000002 /* RootView.swift in Sources */,
+				A10001000000000000000003 /* UserProfile.swift in Sources */,
+				A10001000000000000000004 /* DailyLog.swift in Sources */,
+				A10001000000000000000005 /* MealEntry.swift in Sources */,
+				A10001000000000000000006 /* FoodItem.swift in Sources */,
+				A10001000000000000000007 /* WeightEntry.swift in Sources */,
+				A10001000000000000000008 /* WaterEntry.swift in Sources */,
+				A10001000000000000000009 /* OnboardingContainerView.swift in Sources */,
+				A10001000000000000000010 /* WelcomeStepView.swift in Sources */,
+				A10001000000000000000011 /* GenderStepView.swift in Sources */,
+				A10001000000000000000012 /* AgeStepView.swift in Sources */,
+				A10001000000000000000013 /* HeightStepView.swift in Sources */,
+				A10001000000000000000014 /* WeightStepView.swift in Sources */,
+				A10001000000000000000015 /* TargetWeightStepView.swift in Sources */,
+
+				A10001000000000000000018 /* PaceStepView.swift in Sources */,
+				A10001000000000000000034 /* MainTabView.swift in Sources */,
+				A10001000000000000000035 /* NutritionDashboardView.swift in Sources */,
+				A10001000000000000000036 /* AddActionSheet.swift in Sources */,
+				A10001000000000000000037 /* ProfileSheetView.swift in Sources */,
+				A10001000000000000000066 /* ProfileEditorViews.swift in Sources */,
+				A10001000000000000000100 /* TextLogView.swift in Sources */,
+				A10001000000000000000101 /* FoodSearchView.swift in Sources */,
+				A10001000000000000000102 /* PortionEditorView.swift in Sources */,
+				A10001000000000000000039 /* FoodScanView.swift in Sources */,
+				A10001000000000000000065 /* VoiceLogView.swift in Sources */,
+				A10001000000000000000044 /* WeightProgressView.swift in Sources */,
+				A10001000000000000000045 /* OnboardingViewModel.swift in Sources */,
+				A10001000000000000000046 /* DashboardViewModel.swift in Sources */,
+				A10001000000000000000070 /* GeminiService.swift in Sources */,
+				A10001000000000000000049 /* NutritionCalculator.swift in Sources */,
+				A10001000000000000000051 /* DesignSystem.swift in Sources */,
+				A10001000000000000000180 /* Formatters.swift in Sources */,
+				A10001000000000000000190 /* DataService.swift in Sources */,
+				A10001000000000000000060 /* APIConfig.swift in Sources */,
+				A10001000000000000000061 /* SupportMessage.swift in Sources */,
+				A10001000000000000000062 /* SupportChatView.swift in Sources */,
+				A10001000000000000000063 /* ActivityLogView.swift in Sources */,
+				A10001000000000000000090 /* MealDetailView.swift in Sources */,
+				A10001000000000000000120 /* SchemaVersions.swift in Sources */,
+				A10001000000000000000130 /* FavoritesView.swift in Sources */,
+				A10001000000000000000140 /* AIModels.swift in Sources */,
+				A10001000000000000000141 /* ReviewableFoodItem.swift in Sources */,
+				A10001000000000000000150 /* MealReviewView.swift in Sources */,
+				A10001000000000000000151 /* MealDetailComponents.swift in Sources */,
+				A10001000000000000000160 /* SharedPickers.swift in Sources */,
+				A10001000000000000000170 /* MealAnalysisCoordinator.swift in Sources */,
+				A10001000000000000000200 /* FavoriteMeal.swift in Sources */,
+				A10001000000000000000201 /* FavoritesManagementView.swift in Sources */,
+				A10001000000000000000301 /* MedicalDisclaimerStepView.swift in Sources */,
+				A10001000000000000000302 /* PrivacyStepView.swift in Sources */,
+				A10001000000000000000303 /* RoadmapStepView.swift in Sources */,
+				A10001000000000000000304 /* CareIllustrationView.swift in Sources */,
+				A10001000000000000000305 /* ProgramLoaderStepView.swift in Sources */,
+				A10001000000000000000306 /* MeasurementSystemStepView.swift in Sources */,
+				A10001000000000000000401 /* AuthService.swift in Sources */,
+				A10001000000000000000402 /* SyncService.swift in Sources */,
+				A10001000000000000000403 /* AuthViewModel.swift in Sources */,
+				A10001000000000000000404 /* SignInView.swift in Sources */,
+				A10001000000000000000405 /* AccountCreationStepView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10001000000000000000080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001000000000000000080 /* NutritionCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F10001000000000000000010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F10001000000000000000011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10001000000000000000012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10001000000000000000110 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lebol/Lebol.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lebol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lebol;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebol.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10001000000000000000013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B10001000000000000000110 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lebol/Lebol.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Lebol/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Lebol;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebol.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F10001000000000000000081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebol.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lebol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lebol";
+			};
+			name = Debug;
+		};
+		F10001000000000000000082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lebol.app.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lebol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lebol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10001000000000000000001 /* Build configuration list for PBXProject "Lebol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10001000000000000000010 /* Debug */,
+				F10001000000000000000011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10001000000000000000003 /* Build configuration list for PBXNativeTarget "Lebol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10001000000000000000012 /* Debug */,
+				F10001000000000000000013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10001000000000000000080 /* Build configuration list for PBXNativeTarget "LebolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10001000000000000000081 /* Debug */,
+				F10001000000000000000082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		P10001000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		P20001000000000000000001 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = P10001000000000000000001 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E10001000000000000000010 /* Project object */;
+}

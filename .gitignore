@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+
+# Obsidian
+.obsidian/
+
+# Local development tools
+.claude/
+.xcodebuildmcp/
+
+# Assets (UX references, recordings, frames, ad)
+Assets/
+
+# Environment
+.env
+*.key
+Secrets.xcconfig
